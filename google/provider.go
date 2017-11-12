@@ -58,6 +58,7 @@ func Provider() terraform.ResourceProvider {
 			"google_compute_instance_group":    dataSourceGoogleComputeInstanceGroup(),
 			"google_container_engine_versions": dataSourceGoogleContainerEngineVersions(),
 			"google_iam_policy":                dataSourceGoogleIamPolicy(),
+			"google_kms_secret":                dataSourceGoogleKmsSecret(),
 			"google_storage_object_signed_url": dataSourceGoogleSignedUrl(),
 		},
 
